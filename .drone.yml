@@ -2,9 +2,7 @@ pipeline:
   backend:
     image: golang
     commands:
-      - go get
-      - go build
-      - go test
+      - ls
 
   frontend:
     image: node:6
