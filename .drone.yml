@@ -3,9 +3,3 @@ pipeline:
     image: golang
     commands:
       - ls
-
-  frontend:
-    image: node:6
-    commands:
-      - npm install
-      - npm test
